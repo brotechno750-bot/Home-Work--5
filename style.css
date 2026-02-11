@@ -270,6 +270,27 @@
     background-color: #F3F5F4;
 }
 
+.div4bolo6{
+width: 580px;
+height: 66px;
+background-color: lightgray;
+margin:auto;
+margin-top: 80px;
+margin-bottom: 50px;
+text-align: center;
+}
+
+.div4bolo6 p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #F2BE22;
+}
+
+.div4bolo6 h3{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
 @media(max-width: 510px) {
     * {
         margin: 0;
@@ -467,6 +488,25 @@
     .div3rost {
         display: none;
     }
+
+    .div4bolo6{
+     width: 358px;
+     height: 57px;
+     margin: 0;
+     padding: 0;
+     margin: auto;
+
+    }
+    
+    .div4bolo6 p{
+     font-size: 16px;
+    }
+
+    .div4bolo6 h3{
+     font-size: 24px;
+    }
+
+
 
 
 
