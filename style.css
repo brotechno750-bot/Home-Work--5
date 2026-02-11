@@ -392,6 +392,99 @@
 
 }
 
+.div5 {
+    width: 1521px;
+    height: 1036px;
+    background-color: #F3F5F4;
+}
+
+
+.div5bolo {
+    width: 580px;
+    height: 66px;
+
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.div5bolo p {
+    color: #F2BE22;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.div5bolo h3 {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.div5poyon {
+    width: 1180px;
+    height: 648px;
+    gap: 18px;
+    background-color: #FDFDFD;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+
+}
+
+.div5p {
+    width: 1180px;
+height: 648px;
+margin: auto;
+border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.div5poyon1 {
+    width: 580px;
+    height: 312px;
+    background-color:#FDFDFD;
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+.div5surat1 {
+    width: 230px;
+    height: 280px;
+
+    border-radius: 6px;
+
+}
+
+.div5text1 h3 {
+    margin: 24px 20px;
+}
+
+.div5text3 {
+    margin: 24px 20px;
+}
+
+.div5data {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 20px;
+}
+
+.div5data1 {
+    color: #F2BE22;
+}
+
+
+
+
 
 @media(max-width: 510px) {
     * {
@@ -618,22 +711,113 @@
         margin-top: 20px;
         margin-bottom: 50px;
     }
-    .div4bolosurat2{
+
+    .div4bolosurat2 {
         margin: 0;
         min-width: 90%;
         height: 100%
-        
     }
-    .div4button{
+
+    .div4button {
         width: 220px;
         height: 44px;
         margin: 0;
         margin-right: -200px;
         margin-left: 80px;
-       border-radius: 4px;
+        border-radius: 4px;
     }
 
-    
+    .div5 {
+        width: 390px;
+        height: 761px;
+        flex-wrap: nowrap;
+    }
+
+    .div5bolo {
+        width: 358px;
+        height: 57px;
+    }
+
+    .div5bolo p {
+        font-family: Nunito Sans;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+    }
+
+    .div5bolo h3 {
+        font-family: Nunito Sans;
+        font-weight: 800;
+        font-style: ExtraBold;
+        font-size: 24px;
+
+    }
+
+    .div5p {
+        margin: 0;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-left: 5PX;
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+
+    }
+
+    .div5poyon {
+        flex-wrap: wrap;
+        width: 70%;
+        height: 60%;
+        overflow: auto;
+    }
+
+    .div5poyon1 {
+        flex-direction: column;
+        margin: 0;
+        min-width:60%;
+        height:500px
+    }
+
+    .div5text1 {
+        width: 285px;
+        height: 200px;
+
+    }
+
+    .div5surat1 {
+        width: 285px;
+        height: 280px;
+        margin: 0;
+        margin-bottom: -10px;
+    }
+
+    .div5text1 h3 {
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 16px;
+    }
+
+    .div5text3 {
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+
+    .div5data {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: 16px;
+        gap: 80px;
+    }
+
+    .div5data1 {
+        color: #F2BE22;
+    }
+
 
 
 
