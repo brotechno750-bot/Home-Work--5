@@ -1,12 +1,15 @@
 * {
     margin: 0;
 }
-
+body{
+    width: 1520px;
+}
 .all {
     width: 1521px;
     height: 985px;
     background-image: url(./Rectangle\ 1.png);
     background-repeat: no-repeat;
+    margin: auto;
 
 }
 
@@ -300,6 +303,7 @@
     display: flex;
     color: white;
     margin-bottom: 50px;
+    margin-left: -100px;
 
 }
 
@@ -394,7 +398,7 @@
 
 .div5 {
     width: 1521px;
-    height: 1036px;
+    height: 836px;
     background-color: #F3F5F4;
 }
 
@@ -429,6 +433,7 @@
     background-color: #FDFDFD;
     margin: auto;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     border-radius: 10px;
 
@@ -443,6 +448,7 @@ border-radius: 10px;
 
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 18px;
 }
 
@@ -481,7 +487,45 @@ border-radius: 10px;
 .div5data1 {
     color: #F2BE22;
 }
+.div6{
 
+}
+.div6 p{
+    font-family: Nunito Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+color: #F2BE22;
+text-align: center;
+}
+.div6 h2{
+    font-family: Nunito Sans;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 32px;
+text-align: center;
+}
+.div6pic{
+    width: 1180px;
+height: 520px;
+margin: auto;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.div6pic1{
+    width: 580px;
+height: 250px;
+border-radius: 6px;
+
+}
+.div6pic2{
+    width: 280px;
+height: 250px;
+border-radius: 6px;
+}
 
 
 
@@ -817,7 +861,12 @@ border-radius: 10px;
     .div5data1 {
         color: #F2BE22;
     }
-
+    
+    .div6{
+      width: 390px;
+      height: 100px;
+      flex-direction: column;
+    }
 
 
 
